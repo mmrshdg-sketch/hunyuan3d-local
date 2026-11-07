@@ -1,0 +1,16 @@
+mlx==0.32.4
+mlx-metal==0.32.4
+gradio==5.49.1
+numpy==1.26.4
+scipy==1.17.1
+scikit-image==0.26.0
+trimesh==5.2.0
+xatlas==0.0.11
+opencv-python-headless==4.11.0.86
+pillow==11.3.0
+rembg==2.0.69
+onnxruntime==1.31.1
+safetensors==0.8.0
+PyYAML==6.0.3
+huggingface-hub==0.36.2
+hf-xet==1.8.0

@@ -1,0 +1,11 @@
+.venv/
+models/
+generated/
+work/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.glb
+*.ply
+*.safetensors
+*.onnx

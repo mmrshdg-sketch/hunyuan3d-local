@@ -1,0 +1,16 @@
+:root { color-scheme: light; }
+body, .gradio-container { background: #f7f8fa !important; color: #20242a !important; font-family: system-ui, -apple-system, sans-serif !important; }
+.gradio-container { max-width: 1200px !important; margin: auto !important; padding: 24px 32px 48px !important; }
+footer { display: none !important; }
+.site-header { padding: 8px 0 20px; }
+.site-header h1 { color: #1f2937; font-size: 25px; font-weight: 650; letter-spacing: -.5px; margin: 0 0 5px; }
+.site-header p { color: #6b7280; font-size: 14px; margin: 0; }
+#workflow-tabs [role=tablist] { border-bottom: 1px solid #dce1e8 !important; margin-bottom: 20px !important; gap: 20px !important; }
+#workflow-tabs [role=tab] { color: #647080 !important; background: transparent !important; border: 0 !important; padding: 12px 3px !important; font-size: 14px !important; font-weight: 600 !important; }
+#workflow-tabs [role=tab][aria-selected=true] { color: #2563a6 !important; box-shadow: inset 0 -2px #3b82c4 !important; }
+#workflow-tabs .row:has(> .column .panel-heading) { gap: 18px !important; align-items: flex-start !important; }
+#workflow-tabs .column:has(> .block .panel-heading) { background: #fff !important; border: 1px solid #e1e5eb !important; border-radius: 8px !important; padding: 20px !important; gap: 14px !important; }
+.panel-heading h2 { color: #293241; font-size: 16px; font-weight: 650; margin: 0; }
+.gradio-container button.primary { background: #2563a6 !important; color: white !important; border: 0 !important; border-radius: 6px !important; font-weight: 600 !important; min-height: 42px !important; }
+.gradio-container button.primary:hover { background: #1e5087 !important; }
+@media (max-width: 700px) { .gradio-container { padding: 16px 16px 32px !important; } #workflow-tabs .column:has(> .block .panel-heading) { padding: 16px !important; } }
